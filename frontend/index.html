@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed John | Portfolio RAG System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wordcloud@1.2.2/src/wordcloud2.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <i class="fas fa-robot"></i>
+                    <span>AI-powered portfolio</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#chat">Chat</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Muhammed John</h1>
+                <div class="tagline">Driving Intelligence Through Data & AI</div>
+                <p>
+                    Welcome to my <strong>AI-powered portfolio</strong>! This interactive site uses advanced AI to answer your questions about my experience, skills, projects, and education. 
+                    Explore and chat with my AI assistant to learn more about my journey in Data Science & AI Engineering.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </button>
+                    <button class="btn btn-outline" onclick="scrollToSection('chat')">
+                        <i class="fas fa-comments"></i> Chat with my AI
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Section First -->
+    <section class="chat-first-section" id="chat">
+        <div class="container">
+            <div class="rag-section">
+                <div class="rag-header">
+                    <h2>AI Portfolio Assistant</h2>
+                    <p>Ask anything about my experience, skills, projects, and education</p>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-history" id="chatHistory">
+                        <div class="message bot-message">
+                            Hello! I'm an AI assistant trained on Muhammed John's portfolio. You can ask me about his education, skills, projects, certifications, or professional experience. How can I help you today?
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="userInput" placeholder="Ask about Muhammed's experience, projects, or skills..." autocomplete="off">
+                        <button id="sendButton">
+                            <i class="fas fa-paper-plane"></i> Send
+                        </button>
+                    </div>
+                </div>
+                <div class="loader" id="loader">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="system-info">
+                    <div><i class="fas fa-microchip"></i> RAG System: Ollama + Llama3.2 + mxbai-embed-large</div>
+                    <div><i class="fas fa-database"></i> Context: Portfolio Data</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <div class="container">
+        <div class="stats">
+            <div class="stat-card">
+                <i class="fas fa-project-diagram"></i>
+                <div class="stat-number">9</div>
+                <h3>Projects</h3>
+                <p>Completed with measurable impact</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-certificate"></i>
+                <div class="stat-number">21</div>
+                <h3>Certifications</h3>
+                <p>In AI, ML, and Data Science</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-code"></i>
+                <div class="stat-number">8</div>
+                <h3>Tech Areas</h3>
+                <p>Programming & deployment tools</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-chart-line"></i>
+                <div class="stat-number">92%</div>
+                <h3>Top Accuracy</h3>
+                <p>For CNN disease detection</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section-header" id="skills">
+            <h2>Skills & Expertise</h2>
+            <p>A comprehensive overview of my technical capabilities and professional strengths</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3><i class="fas fa-chart-pie"></i> Skills Distribution</h3>
+                <div class="chart-container">
+                    <canvas id="skillsChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3><i class="fas fa-laptop-code"></i> Project Technologies</h3>
+                <div class="chart-container">
+                    <canvas id="techChart"></canvas>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3><i class="fas fa-cloud"></i> Portfolio Word Cloud</h3>
+                <div id="word-cloud"></div>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section-header" id="projects">
+            <h2>Featured Projects</h2>
+            <p>Production-grade solutions delivering real business value</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3><i class="fas fa-leaf"></i> Potato Leaf Guardian</h3>
+                <p>Web app for farmers to detect potato leaf diseases using AI with 92% accuracy.</p>
+                <div class="chart-container">
+                    <canvas id="project1Chart"></canvas>
+                </div>
+                <div class="tech-tags">
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">CNN</span>
+                    <span class="tech-tag">Docker</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3><i class="fas fa-users"></i> Customer Churn Prediction</h3>
+                <p>End-to-end system with 85% recall for high-risk telecom customers.</p>
+                <div class="chart-container">
+                    <canvas id="project2Chart"></canvas>
+                </div>
+                <div class="tech-tags">
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Streamlit</span>
+                    <span class="tech-tag">ANN</span>
+                    <span class="tech-tag">SMOTE</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3><i class="fas fa-home"></i> House Price Prediction</h3>
+                <p>ML pipeline with R²=0.88 on 10k+ property listings.</p>
+                <div class="chart-container">
+                    <canvas id="project3Chart"></canvas>
+                </div>
+                <div class="tech-tags">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">XGBoost</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Feature Eng</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Muhammed John</h3>
+                    <p>Data Science & AI Engineering student passionate about creating innovative solutions that drive business value through data intelligence.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/Maha-Jr/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/maha-jr10" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.kaggle.com/muhammedjohn" target="_blank"><i class="fab fa-kaggle"></i></a>
+                        <a href="https://www.instagram.com/_maha_jr_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>muhammedjohn3@gmail.com</div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>+212 647 466 338</div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>Fes, Morocco</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Availability</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div>Open to internships and full-time roles</div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <div>Available for remote or on-site work</div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-plane"></i>
+                            <div>Open to relocation opportunities</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Muhammed John. All rights reserved. | Designed with ❤️ for recruiters</p>
+                <p>This interactive portfolio uses Retrieval-Augmented Generation to answer your questions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/JS/script.js"></script>
+</body>
+</html>
