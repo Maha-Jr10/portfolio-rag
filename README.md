@@ -35,7 +35,7 @@ This project implements a locally deployable Retrieval-Augmented Generation (RAG
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/muhammedjohn/portfolio-rag.git
+   git clone https://github.com/Maha-Jr10/portfolio-rag.git
    cd portfolio-rag
    ```
 
@@ -186,5 +186,6 @@ The system will:
 3. Load Llama3.2 via Ollama
 4. Serve the interactive frontend with visualizations
 5. Enable Q&A about your portfolio via the RAG system
+
 
 This complete implementation provides a professional portfolio showcase with AI-powered Q&A capabilities, data visualizations, and a modern UI - all running locally on your machine.
