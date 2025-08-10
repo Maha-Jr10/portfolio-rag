@@ -1,0 +1,96 @@
+Category,Details
+About Me,"MS Student in Data Science & AI Engineering. Muhammed John is a dedicated Data Science and AI Engineering student at ENSAF, recognized for a strong academic record and practical experience in software development, machine learning, and leadership. Proficient in Python, R, SQL, Java, and JavaScript, he develops robust machine learning solutions and interactive data applications using frameworks such as TensorFlow, scikit-learn, Streamlit, Flask, and FastAPI. Muhammed thrives in collaborative, multicultural environments and has demonstrated effective leadership as Secretary General of the Gambian Students’ Association in Morocco (GASAM). Fluent in English and Wollof, and conversational in French, he values clear communication and continuous professional growth. Muhammed welcomes internship opportunities and meaningful collaborations."
+Name,Muhammed John
+nickname,"Maha Jr, Mbackeh, Maha"
+Tagline,Driving Intelligence Through Data & AI
+Location,"Fes, Morocco"
+Current Status,MS Student in Data Science & AI Engineering at ENSAF
+Professional Summary,"3rd-year Data Science and AI Engineering student at ENSAF with 5+ production-grade ML projects delivering measurable business impact. Hands-on experience building computer vision systems (92% accuracy), developing predictive models, and implementing full-stack solutions with TensorFlow, Flask, and React. Demonstrated ability to solve real-world challenges like agricultural disease detection and customer churn prediction. Seeking data science internship to apply technical skills in high-impact business solutions."
+Open to Roles,"Actively seeking opportunities to apply my skills in data science, machine learning, and software development. Ready to contribute, learn, and grow in a collaborative, professional environment."
+Education,"Early Foundation: Began academic path at Vine Excellent School (Nursery 1–Grade 2), then advanced to LightHouse School (Grades 3–5), where I excelled and skipped a grade due to outstanding performance. New Covenant Junior School: Attended New Covenant School (Grades 7–9), graduating as best student. This achievement earned me a place at Nusrat Senior Secondary School, one of The Gambia’s top institutions. Nusrat High School: Joined the Science 1 class at Nusrat, completing Grades 10–12. Graduated in 2021 with strong results, positioning me for competitive scholarships and further studies. University of The Gambia (UTG): Started at the University of The Gambia (UTG) in Computer Science, where I built a strong foundation in programming and analytical thinking. ENSAF, Morocco: In 2022, I earned a scholarship to ENSAF (École Nationale des Sciences Appliquées de Fès, Morocco), where I successfully adapted to a new language and academic system. Currently specializing in Data Science and AI Engineering (2022–2027)."
+Vision & Goals,"My ambition is to excel in Data Science and AI Engineering, empowering organizations to make data-driven decisions and shape the future. I aim to graduate in 2027 with a Master’s degree (Bac+5) and contribute meaningfully to the technology sector. This journey reflects my commitment to learning, adaptability, and a passion for innovation."
+Experience,"Secretary General, 2024 – 2025, Gambian Students’ Association in Morocco (GASAM). Represented and advocated for 100+ Gambian students, collaborating with Moroccan universities and stakeholders to address academic and welfare needs. Organized and led cultural, academic, and networking events to foster community and professional growth. Mentored new committee members and managed digital communications, including the association’s website, newsletter, and social media channels. Machine Learning Intern, Aug 2025 – Oct 2025, XAI. Data Science Intern, July 2025 – Aug 2025, ENSAF."
+Skills - Programming Languages,"Python – Data Science, ML, Scripting; R – Statistical Analysis; SQL – Data Querying; Java – Backend, OOP; JavaScript – Web Development; C/C++ – Algorithms, Systems. Core programming and scripting languages for analytics, ML, backend, and web development."
+Skills - ML & AI,"scikit-learn – ML Models; TensorFlow/Keras – Deep Learning; XGBoost – Ensemble Methods; SMOTE – Data Balancing; GridSearchCV – Hyperparameter Tuning. Experience building, tuning, and evaluating machine learning models using popular libraries. Skilled in deep learning, ensemble methods, data balancing, and hyperparameter optimization."
+Skills - Data Processing,"pandas – Data Manipulation; NumPy – Numerical Computing; Feature Engineering; Scaling & Encoding. Advanced data wrangling, cleaning, transformation, and feature engineering for robust model pipelines. Familiar with scaling and encoding techniques for ML readiness."
+Skills - Visualization,"Matplotlib – Visualization; Seaborn – Statistical Plots; Plotly – Interactive Charts; Excel Dashboards. Creating insightful and interactive data visualizations and dashboards for analysis and reporting, using both code and spreadsheet tools."
+Skills - Deployment & Tools,"Streamlit – ML Apps; Flask, FastAPI – APIs; Git – Version Control; Docker – Containerization; SQLite, MySQL Workbench – Databases; HTML/CSS – Web UI; Linux – Dev Environment. Deploying ML models and web apps, version control, containerization, database management, and working in Linux environments for end-to-end solutions."
+Skills - Frontend,"React, HTML/CSS, Material-UI"
+Skills - Environments,"Jupyter Notebook; VS Code. Daily use of interactive and code-centric environments for experimentation, prototyping, and production development."
+Skills - Soft Skills,"Leadership – Leading teams and initiatives. Experience in guiding teams, organizing events, and taking responsibility for group outcomes. Communication – Written & verbal communication. Able to explain complex ideas clearly, present findings, and collaborate across diverse teams. Teamwork – Collaboration & cooperation. Work effectively in group settings, value diverse perspectives, and contribute to shared goals. Problem-Solving – Analytical & creative thinking. Approach challenges with logic and creativity to find effective solutions. Adaptability – Flexible & open to change. Quickly adjust to new environments, tools, and requirements. Time Management – Prioritization & efficiency. Organize tasks, meet deadlines, and balance multiple responsibilities. Critical Thinking – Objective analysis. Evaluate information and arguments to make sound decisions. Presentation – Public speaking & reporting. Confidently deliver presentations and share results with technical and non-technical audiences."
+Skills - Spoken Languages,"English (Fluent); French (Conversational); Spanish (Beginner); Wolof (Native)."
+Projects,"Potato Leaf Guardian: Crop Disease Detection | TensorFlow React Flask. Web app for farmers to detect potato leaf diseases using AI. Upload a leaf photo and get instant analysis—healthy, Early Blight, or Late Blight—powered by Convolutional Neural Networks (CNN). Built CNN model detecting Early/Late Blight with 92% accuracy using transfer learning. Developed farmer-friendly React interface to upload potato leaf image. Containerized model with Docker for local deployment via Flask API. Processed 15,000+ leaf images with data augmentation techniques. Video Demo: https://www.linkedin.com/posts/maha-jr_agtech-digitalagriculture-agtech-activity-7351542615000899585-uQDI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAERpPhMBaVEVTDt4J0NVkUX16cVKdD8H6sA"
+Projects,"Customer Churn Prediction System | TensorFlow Streamlit SMOTE. End-to-end Customer Churn Prediction System powered by a deep learning model (ANN) and wrapped it in a clean and interactive Streamlit web app—designed to be simple even for non-technical users. Created neural network classifier (ANN) with 85% recall for high-risk telecom customers. Engineered dynamic thresholds to align predictions with business KPIs. Deployed as interactive Streamlit app for real-time probability checks. GitHub Link: https://github.com/Maha-Jr10/Customer-Churn-Prediction"
+Projects,"Dockerized FastAPI Iris Predictor. Built a production-ready backend service using FastAPI and Docker to predict Iris flower species from user input. GitHub Link: https://github.com/Maha-Jr10/Iris-API"
+Projects,"House Price Prediction | Flask XGBoost. End-to-end ML pipeline: feature engineering on Bangalore real-estate data, model training (Decision Tree, Lasso, Linear Regression), hyperparameter tuning, and Flask API deployment. Trained regression model (R^2=0.88) on 10k+ property listings. Developed feature engineering pipeline addressing data skew. Served predictions via Flask API with React frontend integration. GitHub Link: https://github.com/Maha-Jr10/House-price-prediction-project"
+Projects,"Road Accident Analytics | Excel Data Visualization. Interactive Excel dashboard transforming 307K+ UK collision records into KPIs, trend analyses, and dynamic charts for data-driven road safety decisions. Analyzed 300k+ records to identify high-risk zones. Built interactive dashboards for safety decision-making. View Dashboard: https://1drv.ms/x/c/9e426d7bd2b44799/EakpZlSFeP1OjR152aiVTkgBjKN87raRFMf8R4NuZ6o_HA?e=ayRIgF"
+Projects,"Marketing Spend Optimization | Scikit-learn Pandas. Analyzed ad-spend vs. sales data; trained Random Forest, SVM, XGBoost (R²≈0.988); identified top channels to optimize marketing budget. Identified optimal ad channels through regression (R^2=0.988). Delivered actionable insights for budget reallocation. GitHub Link: https://github.com/Maha-Jr10/Sales-Prediction"
+Projects,"Student Management System - Java Swing + MySQL. Java Swing desktop app with MySQL backend for secure CRUD operations, schema design, and reporting—showcasing practical full-stack Java development. Video Demo: https://www.linkedin.com/posts/maha-jr_java-studentmanagementsystem-jdbc-activity-7319017148058660864-1TDO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERpPhMBaVEVTDt4J0NVkUX16cVKdD8H6sA"
+Projects,"Iris Flower Classification. Complete ML pipeline: EDA, feature scaling, GridSearchCV tuning (KNN, SVM), and model evaluation with confusion matrix and decision boundary visuals. GitHub Link: https://github.com/Maha-Jr10/Iris-flower-Classification"
+Projects,"Portfolio Website - HTML/CSS/JS. Responsive HTML/CSS/JS site with sticky navbar, mobile sidebar, and animated project cards—deployed to showcase work and skills. View Live: index.html"
+Certifications,"AI Fundamentals with IBM SkillsBuild (Cisco Networking Academy, 2025). Credential: https://www.credly.com/badges/8131a22c-05f8-4ae8-a2f6-5e1432e4b296/public_url"
+Certifications,"Computer Vision (Kaggle, 2025). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/computer-vision"
+Certifications,"Intro to Deep Learning (Kaggle, 2025). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/intro-to-deep-learning"
+Certifications,"Intro to Programming (Kaggle, 2025). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/intro-to-programming"
+Certifications,"Intermediate Machine Learning (Kaggle, 2025). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/intermediate-machine-learning"
+Certifications,"Intro to Machine Learning (Kaggle, 2024). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/intro-to-machine-learning"
+Certifications,"Pandas (Kaggle, 2025). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/pandas"
+Certifications,"Python (Kaggle, 2024). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/python"
+Certifications,"Python (HackerRank, 2024). Credential: https://www.hackerrank.com/certificates/iframe/0d10b610763a"
+Certifications,"SQL (HackerRank, 2024). Includes Advanced, Intermediate, and Basic SQL. Credential: https://www.hackerrank.com/certificates/iframe/a85cbd0adb30"
+Certifications,"SQL (Oracle, 2024). Includes SQL CC and SQL EC."
+Certifications,"Feature Engineering (Kaggle, 2025). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/feature-engineering"
+Certifications,"Data Cleaning (Kaggle, 2025). Credential: https://www.kaggle.com/learn/certification/muhammedjohn/data-cleaning"
+Certifications,"Problem Solving (HackerRank, 2025). Credential: https://www.hackerrank.com/certificates/iframe/0cf718036971"
+Certifications,"JavaScript (HackerRank, 2024). Includes Intermediate and Basic JavaScript. Credential: https://www.hackerrank.com/certificates/iframe/0443ef41053e"
+Certifications,"JavaScript Algorithms and Data Structures (Beta) (freeCodeCamp, 2024). Credential: https://www.freecodecamp.org/certification/MUHAMMED_JOHN/javascript-algorithms-and-data-structures-v8"
+Certifications,"Responsive Web Design (freeCodeCamp, 2024). Credential: https://www.freecodecamp.org/certification/MUHAMMED_JOHN/responsive-web-design"
+Certifications,"Database Design (Oracle, 2024). Includes DD CC and DD EC."
+Certifications,"Generative AI Concepts (DataCamp, 2025). Credential: https://www.datacamp.com/completed/statement-of-accomplishment/course/5b9c2025a604f4b38ef57ac579542b1a6353fdf5"
+Certifications,"Introduction to Data Literacy (DataCamp, 2025). Credential: https://www.datacamp.com/completed/statement-of-accomplishment/course/f96dd38c4d7992c04b44ca753c4b5d44197207e7"
+Certifications,"CSS (HackerRank, 2024)."
+Achievements,"5-Star SQL Badge (HackerRank Achievement). Document: certificates/PDFs/sql-5-star.pdf"
+CV,"Professional CV (English & French). View English CV: certificates/PDFs/Muhammed John-CV_en-pro.pdf. View French CV: certificates/PDFs/Muhammed John-CV_fr-pro.pdf"
+Contact - Email,muhammedjohn3@gmail.com
+Contact - Phone Number,+212 647 466 338"
+Portfolio,https://maha-jr10.github.io/Johns-website
+Social Media - LinkedIn,"https://www.linkedin.com/in/Maha-Jr/, https://github.com/maha-jr10, https://www.instagram.com/_maha_jr_/"
+Social Media - Kaggle,https://www.kaggle.com/muhammedjohn
+Social Media - HackerRank,https://www.hackerrank.com/Muhammedjohn3
+love,"Data Science, AI, Machine Learning, Software Development, Web Development, Problem Solving, Data Analytics"
+love,"Learning New Technologies, Open Source Contributions, Community Engagement"
+is Muhammed John in love,he don't share his love story
+Date of Birth,10th February 2004
+is Muhammed John looking for a job,Yes
+is Muhammed John available for freelance work,Yes
+is Muhammed John available for internships,Yes
+is Muhammed John available for full-time work,Yes
+is Muhammed John available for part-time work,Yes
+is Muhammed John available for remote work,Yes
+is Muhammed John available for on-site work,Yes
+is Muhammed John a student,Yes
+is Muhammed John a graduate,No
+is Muhammed John married,No
+Current year,2025
+age,Muhammed John is 21 years old
+is Muhammed John a tech enthusiast,Yes
+is Muhammed John a lifelong learner,Yes
+is Muhammed John a community contributor,Yes
+is Muhammed John a problem solver,Yes
+nationality,Gambian
+Current Location,"Fes, Morocco"
+is Muhammed John open to relocation,Yes
+is Muhammed John open to remote work,Yes
+is Muhammed John open to part-time work,Yes
+is Muhammed John open to full-time work,Yes
+is Muhammed John open to internships,Yes
+is Muhammed John open to freelance work,Yes
+is Muhammed John open to contract work,Yes
+is Muhammed John open to volunteer work,Yes
+is Muhammed John open to mentorship opportunities,Yes
+is Muhammed John open to networking opportunities,Yes
+is Muhammed John open to collaboration opportunities,Yes
+is Muhammed John open to research opportunities,Yes
+is Muhammed John open to teaching opportunities,Yes
+is Muhammed John open to public speaking opportunities,Yes
+is Muhammed John open to writing opportunities,Yes
